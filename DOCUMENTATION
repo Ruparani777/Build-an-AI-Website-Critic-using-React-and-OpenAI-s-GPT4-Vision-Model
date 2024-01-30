@@ -1,0 +1,12 @@
+we will build a React app that utilizes a Vision model to analyze images of websites and provide feedback. To do this, we will follow the previously described 4-step workflow for integrating AI services into frontend apps.
+
+Since we need for a vision model that can analyze images, we should look at the available options in the market, which you can find here and here. After examining the performance benchmarks of available vision models, we will go with OpenAI's GPT-4 vision model.
+
+OpenAI's GPT-4 vision model is a state-of-the-art AI model released in late 2023. It can accept images as inputs, analyze them, and provide detailed feedback based on the prompts.
+
+Apart from performance reasons, we will use it for our Website Critique application because it offers relatively cheaper pricing than other vision models, and has an easy-to-use API endpoint bundled with the popular OpenAI developer interface.
+
+It's now time to integrate it into our React app.
+
+Step 1: Install React + Vite
+You can do that with the following command:
