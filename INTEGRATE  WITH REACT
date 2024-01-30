@@ -1,0 +1,22 @@
+Step 1: Install React + Vite
+You can do that with the following command:
+
+npm create vite@latest my-website-critic -- --template react
+Step 2: Install OpenAI Node package
+Open the generated project folder in your favorite IDE and install the OpenAI Node package, which you will use to interact with the GPT4 Vision model.
+
+Here's how to install it:
+
+cd my-website-critic
+npm install openai
+Step 3: Install the React markdown package
+This will help you format the model's textual responses in a readable format.
+
+npm install react-markdown
+Step 4: Run npm install
+Now run npm install:
+
+  npm install
+  npm run dev
+Step 5: Manage state in React
+In this step, you will use React's useState and useEffect hooks for managing the state and handling the asynchronous request to OpenAI's API in src/App.jsx.
